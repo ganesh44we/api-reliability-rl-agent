@@ -1,6 +1,6 @@
 ---
 title: API Reliability RL Environment
-emoji: 🚀
+emoji: 
 colorFrom: purple
 colorTo: blue
 sdk: docker
@@ -8,7 +8,7 @@ app_file: app.py
 pinned: false
 ---
 
-# 🚀 Cost-Aware API Reliability RL Environment
+#  Cost-Aware API Reliability RL Environment
 
 ## 🧠 Overview
 
@@ -16,9 +16,9 @@ This project implements a **real-world reinforcement learning (RL) environment**
 
 Agents must make intelligent decisions under uncertainty to balance:
 
-* ✅ Success rate
-* ⏱️ Latency
-* 💰 Cost
+*  Success rate
+*  Latency
+*  Cost
 
 This models real-world scenarios like microservice failures, API retries, and fallback strategies.
 
@@ -30,7 +30,7 @@ Enable agents to learn optimal strategies for handling unreliable APIs using the
 
 ---
 
-## 🧩 State Space (Observation)
+##  State Space (Observation)
 
 | Feature       | Description                      |
 | ------------- | -------------------------------- |
@@ -55,7 +55,7 @@ Enable agents to learn optimal strategies for handling unreliable APIs using the
 
 ---
 
-## 🧠 Environment Dynamics
+##  Environment Dynamics
 
 * **API A** → cheaper but less reliable (fail_prob +0.1)
 * **API B** → more reliable but higher cost (fail_prob −0.1)
@@ -86,7 +86,7 @@ Enable agents to learn optimal strategies for handling unreliable APIs using the
 
 ---
 
-## 🧪 Tasks (Difficulty Levels)
+##  Tasks (Difficulty Levels)
 
 | Task   | Fail Probability | Description                           |
 | ------ | ---------------- | ------------------------------------- |
@@ -193,7 +193,7 @@ The **rl-env** space uses an OpenAI-compatible API (Qwen2.5-7B via Hugging Face 
 
 ---
 
-## 🚀 Live Demos
+##  Live Demos
 
 | Space                        | URL                                                      |
 | ---------------------------- | -------------------------------------------------------- |
@@ -258,13 +258,13 @@ api-reliability-rl-agent/
 
 ## 🧠 OpenEnv Compliance
 
-* ✅ Typed `Action` / `Observation` / `State` models (Pydantic)
-* ✅ `step()`, `reset()`, `state` property implemented
-* ✅ `openenv.yaml` included
-* ✅ Dockerized deployment
-* ✅ HF Space live and running
-* ✅ Minimum 3 difficulty tasks with 0.0–1.0 scoring
-* ✅ Baseline inference script with reproducible scores (`random.seed(42)`)
+*  Typed `Action` / `Observation` / `State` models (Pydantic)
+*  `step()`, `reset()`, `state` property implemented
+*  `openenv.yaml` included
+*  Dockerized deployment
+*  HF Space live and running
+*  Minimum 3 difficulty tasks with 0.0–1.0 scoring
+*  Baseline inference script with reproducible scores (`random.seed(42)`)
 
 ---
 
@@ -282,12 +282,12 @@ api-reliability-rl-agent/
 
 ## 👥 Team
 
-| Name             | Email                                                        | GitHub                                      |
-| ---------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| Ganesh Rayapati  | [ganeshrayapati44@gmail.com](mailto:ganeshrayapati44@gmail.com) | [@ganesh44we](https://github.com/ganesh44we) |
-| Rahil Ahmed      | [rahilahmed1305@gmail.com](mailto:rahilahmed1305@gmail.com)  | —                                           |
-| PALETI SAI TARUN | [saitarunpaleti@gmail.com](mailto:saitarunpaleti@gmail.com)  | —                                           |
+| Name             | Email                                                        | 
+| ---------------- | ------------------------------------------------------------ | 
+| Ganesh Rayapati  | [ganeshrayapati44@gmail.com](mailto:ganeshrayapati44@gmail.com) |
+| Rahil Ahmed      | [rahilahmed1305@gmail.com](mailto:rahilahmed1305@gmail.com)  | 
+| PALETI SAI TARUN | [saitarunpaleti@gmail.com](mailto:saitarunpaleti@gmail.com)  | 
 
 ---
 
-*Built for the OpenEnv × Scaler Meta PyTorch Hackathon — Submission deadline: 8th April 2026*
+*Built for the OpenEnv × Scaler Meta PyTorch Hackathon*
