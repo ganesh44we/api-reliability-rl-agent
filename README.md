@@ -1,12 +1,4 @@
----
-title: API Reliability RL Environment
-emoji: 
-colorFrom: purple
-colorTo: blue
-sdk: docker
-app_file: app.py
-pinned: false
----
+
 
 #  Cost-Aware API Reliability RL Environment
 
